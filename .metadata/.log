@@ -1,0 +1,269 @@
+!SESSION 2017-01-01 20:55:01.016 -----------------------------------------------
+eclipse.buildId=4.2.2.M20140918-1444
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Windows 10 Home amd64-64 Compressed References 20150630_255653 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR3_20150630_2236_B255653
+JIT  - tr.r13.java_20150623_94888.01
+GC   - R27_Java727_SR3_20150630_2236_B255653_CMPRSS
+J9CL - 20150630_255653
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.equinox.registry 2 0 2017-01-01 20:55:24.682
+!MESSAGE The extensions and extension-points from the bundle "org.eclipse.emf.commonj.sdo" are ignored. The bundle is not marked as singleton. 
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-01-01 20:55:25.389
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:99)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:535)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(AccessController.java:416)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-01-01 20:55:25.389
+!MESSAGE No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2017-01-01 20:55:25.399
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:142)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:535)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(AccessController.java:416)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2017-01-01 20:55:25.399
+!MESSAGE No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-01-01 20:55:27.216
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:28.811
+!MESSAGE NLS unused message: PD_HELP_POPUP_RELATED_HELP_SECTION_TITLE in: com.ibm.etools.mft.flow.msgFlowStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:28.816
+!MESSAGE NLS unused message: PROPERTY_LEVEL_HELP_POPUP_OPEN_DYNAMIC_HELP_LINK_TEXT in: com.ibm.etools.mft.flow.msgFlowStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:28.819
+!MESSAGE NLS unused message: PD_HELP_POPUP_DECORATOR_HOVER_HELP in: com.ibm.etools.mft.flow.msgFlowStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:28.822
+!MESSAGE NLS unused message: PROPERTY_LEVEL_HELP_POPUP_MORE_INFO_LINK in: com.ibm.etools.mft.flow.msgFlowStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:28.824
+!MESSAGE NLS unused message: PROPERTY_LEVEL_HELP_POPUP_SECTION_HOVER_HELP in: com.ibm.etools.mft.flow.msgFlowStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:28.827
+!MESSAGE NLS unused message: WarningEditReferenceFileInRecordMode in: com.ibm.etools.mft.flow.msgFlowStrings
+
+!ENTRY org.eclipse.ui 2 2 2017-01-01 20:55:28.914
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2017-01-01 20:55:28.918
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2017-01-01 20:55:28.921
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.673
+!MESSAGE NLS unused message: ErrorCreateTestNode in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.676
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogTitle in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.678
+!MESSAGE NLS missing message: overrideSavedTrustStorePasswordDialogDescription in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.681
+!MESSAGE NLS missing message: expAPIDialog_apiId in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.684
+!MESSAGE NLS missing message: expAPIDialog_apiVer in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.686
+!MESSAGE NLS missing message: expAPIDialog_testConn in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.689
+!MESSAGE NLS missing message: expAPIDialog_newVer in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:29.692
+!MESSAGE NLS missing message: expAPIDialog_exportDesc in: com.ibm.etools.mft.broker.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:30.676
+!MESSAGE NLS missing message: ConnectPatternRepo_ErrorConnecting_Dialog_Title in: com.ibm.etools.mft.pattern.community.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:55:30.679
+!MESSAGE NLS missing message: ConnectPatternRepo_ErrorConnecting_Dialog_Msg in: com.ibm.etools.mft.pattern.community.messages
+
+!ENTRY com.ibm.mq.runtime 1 0 2017-01-01 20:55:30.830
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2017-01-01 20:55:30.834
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.2\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2017-01-01 20:55:30.880
+!MESSAGE BIP8100I: Unable to detect an installation of WebSphere MQ 
+
+!ENTRY com.ibm.mq.runtime 4 0 2017-01-01 20:55:30.892
+!MESSAGE WebSphere MQ install location is not found.
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:56:47.986
+!MESSAGE NLS missing message: ApplicationLibraryProjectReferenceWizardPage_directoryLabel in: com.ibm.etools.mft.util.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:01.572
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorSchemaInAppImportSchemaInSharedLib in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:01.575
+!MESSAGE NLS unused message: DFDLXSDResourceBuilder_errorProjectReferenceIsMissing in: com.ibm.etools.msg.builder.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:01.751
+!MESSAGE NLS unused message: Properties_Description in: com.ibm.etools.mft.service.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:01.754
+!MESSAGE NLS missing message: GenerateBindingAction_label2 in: com.ibm.etools.mft.service.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.870
+!MESSAGE NLS unused message: NewAssertionDialog_title in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.872
+!MESSAGE NLS unused message: SendMessage_msgNameLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.875
+!MESSAGE NLS unused message: SendMessage_operationLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.890
+!MESSAGE NLS unused message: SaveTestMessageTitle_input in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.895
+!MESSAGE NLS unused message: SaveTestMessageTitle_expected in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.898
+!MESSAGE NLS missing message: NextstepDialog_title in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.901
+!MESSAGE NLS missing message: NextstepDialog_Message in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.903
+!MESSAGE NLS missing message: NextstepDialog_externalTool in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.906
+!MESSAGE NLS missing message: NextstepDialog_inject in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.908
+!MESSAGE NLS missing message: ActionButton_displayData in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.911
+!MESSAGE NLS missing message: ActionButton_exit in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.913
+!MESSAGE NLS missing message: DirectInject_MessageBodyLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.916
+!MESSAGE NLS missing message: DirectInject_BrowseButton in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.918
+!MESSAGE NLS missing message: DirectInject_ButtonLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.920
+!MESSAGE NLS missing message: DirectInject_TestCaseLabel in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.923
+!MESSAGE NLS missing message: SendLastMessageAction_label in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.925
+!MESSAGE NLS missing message: SendLastMessageAction_tooltip in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.928
+!MESSAGE NLS missing message: SaveExpectedResult in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.930
+!MESSAGE NLS missing message: SaveCheckPoint in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.933
+!MESSAGE NLS missing message: SendMessageDialog_Error_1 in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.936
+!MESSAGE NLS missing message: SendMessageDialog_Warning_2 in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:27.938
+!MESSAGE NLS missing message: SendMessageDialog_Information_3 in: com.ibm.etools.mft.testmode.TestModeStrings
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:34.484
+!MESSAGE NLS missing message: WSDL_GatewayNonGatewayString in: com.ibm.etools.mft.ibmnodes.plugin.ibmnodesresources
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:34.487
+!MESSAGE NLS missing message: tooltipFTETransferMode in: com.ibm.etools.mft.ibmnodes.plugin.ibmnodesresources
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:34.490
+!MESSAGE NLS missing message: CICS_GROUP_HEADER_Node_ConnectionDetails in: com.ibm.etools.mft.ibmnodes.plugin.ibmnodesresources
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:57:34.493
+!MESSAGE NLS missing message: CICS_GROUP_HEADER_Broker_ConnectionDetails in: com.ibm.etools.mft.ibmnodes.plugin.ibmnodesresources
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:59:59.557
+!MESSAGE NLS missing message: BarEditor_WLM in: com.ibm.etools.mft.bar.editor.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:59:59.560
+!MESSAGE NLS missing message: ResourceSelectionDialog_includeReferencedLibrary in: com.ibm.etools.mft.bar.editor.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 20:59:59.563
+!MESSAGE NLS missing message: ResourceSelectionDialog_includeReferencedLibraryTooltip in: com.ibm.etools.mft.bar.editor.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 21:00:09.435
+!MESSAGE NLS unused message: RESTAPICompiler_BAR_canAdd_notjson in: com.ibm.etools.mft.bar.compiler.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 21:00:09.439
+!MESSAGE NLS unused message: ESQLCompiler_BAR_canAdd_notsubflow in: com.ibm.etools.mft.bar.compiler.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 21:00:09.442
+!MESSAGE NLS missing message: RESTAPICompiler_BAR_canAdd_notrestapi in: com.ibm.etools.mft.bar.compiler.messages
+
+!ENTRY org.eclipse.osgi 2 1 2017-01-01 21:00:09.445
+!MESSAGE NLS missing message: ESQLCompiler_BAR_canAdd_notesql in: com.ibm.etools.mft.bar.compiler.messages
